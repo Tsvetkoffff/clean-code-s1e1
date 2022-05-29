@@ -16,7 +16,7 @@
   width: 100%;
 }
 
-.header .more-info {
+.header .header__link {
   font-family: fantasy, cursive;
 }
 
@@ -145,13 +145,13 @@
   width: 226px;
 }
 
-.btn.del-btn .btn__img {
+.btn.btn--del .btn__img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.btn.del-btn .btn__img:hover {
+.btn.btn--del .btn__img:hover {
   transform: rotateZ(0);
 }
 
