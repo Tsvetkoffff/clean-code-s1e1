@@ -84,6 +84,10 @@
   text-transform: uppercase;
 }
 
+.add-item__header {
+  margin-bottom: 20px;
+}
+
 .input[type="text"] {
   margin: 0;
   font-size: 18px;
@@ -104,7 +108,7 @@
 /* New Task */
 .label[for="add-item__input"] {
   display: block;
-  margin: 0 0 20px;
+  margin: 0;
 }
 
 #add-item__input {
